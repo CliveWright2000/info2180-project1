@@ -4,8 +4,55 @@ body {
     font-size: 16px;
 }
 
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+h1 {
+    float: left;
+    margin-top: 0px;
+    margin-right: 52%;
+    font-size: 20px;
+}
+
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+
+.overview-hero-image img {
+    width: 70%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.overview-hero div.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px 60px 30px 60px;
+}
+
+.learn-about div.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+}
+
+.learn-about div.cards div.card img {
+    width: 70%;
+    height: 150px;
+}
+
+.learn-about h2 {
+    font-size: 20px;
+}
+
+.testing div.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    grid-column-gap: 50px;
 }
